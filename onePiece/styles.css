@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(226, 211, 211);
+    margin: 0;
+}
+
+.Nav {
+    border:2px solid blue;
+    border-radius: 10px;
+    margin: 0 ;
+    background-color: #8DCBE6;
+}
+
+.Nav li {
+    float: left;
+    list-style: none;
+    padding: 3px 15px;
+    margin: 2px 3px;
+
+}
+
+
+.Nav ul {
+    overflow: auto;
+    
+}
+
+.Nav li a {
+    text-decoration: solid;
+    padding: 0 3px;
+    color: #00337C;
+}
+
+.Nav li a :hover {
+    transform: scale(1.5);
+}
+.btnr{
+    position: relative;
+    left: 1170px;
+    top: 8px;
+    border: 2px solid blue;
+    cursor: pointer;
+
+}
+.logo {
+    position: relative;
+    right: 21px;
+    bottom: 3px;
+
+
+}
+.mid{
+
+   text-align: center;
+}
+.one:hover{
+    border: 1px solid black;
+}
